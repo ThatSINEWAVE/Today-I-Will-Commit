@@ -4,7 +4,7 @@
 
 This project is a simple web application that helps you generate a random commit message for the day. It displays the current date along with the generated commit message and provides options to copy the commit message or generate a new one.
 
-![Today-I-Will-Commit](https://github.com/ThatSINEWAVE/Today-I-Will-Commit/assets/133239148/ebb19938-512f-4df8-8bb6-0c140f0b68a5)
+![Today-I-Will-Commit](https://github.com/ThatSINEWAVE/Today-I-Will-Commit/assets/133239148/3f4df978-49c4-43b5-9c25-b81660ce629d)
 
 </div>
 
