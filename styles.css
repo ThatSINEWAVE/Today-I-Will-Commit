@@ -1,0 +1,84 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f3f3f3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.content {
+	opacity: 0;
+	animation: fadeInAnimation 1s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+	to {
+		opacity: 1;
+	}
+}
+
+.commit-text {
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+	max-width: 80%;
+	display: inline-block;
+}
+
+.buttons {
+	margin-top: 20px;
+}
+
+button {
+	background-color: #1e1f22;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	outline: none;
+}
+
+button:hover {
+	background-color: #454954;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background: transparent;
+}
+
+footer a {
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 20px;
+	color: #1e1f22;
+	animation: neonGlow 2s infinite alternate;
+}
